@@ -1,0 +1,11 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/libs/complex-components",
+  "lib": {
+    "entryFile": "src/public_api.ts",
+    "umdModuleIds": {
+      "@example-lib/uppercase-pipe": "example-lib.uppercase-pipe",
+      "@example-lib/icons": "example-lib.icons"
+    }
+  }
+}

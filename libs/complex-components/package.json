@@ -1,0 +1,10 @@
+{
+  "name": "@example-lib/complex-components",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0",
+    "@example-lib/icons": "^0.0.1",
+    "@example-lib/uppercase-pipe": "^0.0.1"
+  }
+}

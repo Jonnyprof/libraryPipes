@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../out-tsc/app",
+    "types": [],
+    "paths": {
+      "@example-lib/uppercase-pipe": [
+        "libs/uppercase-pipe/src/public_api.ts"
+      ],
+      "@example-lib/icons": [
+        "libs/icons/src/public_api.ts"
+      ],
+      "@example-lib/complex-components": [
+        "libs/complex-components/src/public_api.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}
