@@ -303,6 +303,20 @@
   dependencies:
     tslib "^1.9.0"
 
+"@example-lib/icons@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@example-lib/icons/-/icons-0.0.1.tgz#605d560c02295a4905eba519667e8c92edc12db7"
+  integrity sha512-Va39nkxVxpyby+CT905CzJBb9/hsashaC3VitBngBiS8wOYyJSJgK6mnfv2uFRiYo9NCRi/6vIxmR7+52/HotA==
+  dependencies:
+    tslib "^1.9.0"
+
+"@example-lib/uppercase-pipe@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@example-lib/uppercase-pipe/-/uppercase-pipe-0.0.1.tgz#e1167411e89ce9698c8a4879a039dad76232a96f"
+  integrity sha512-E77WtKVxLVOKY3eyC2nIFhXRl/+5UzOKRcmSgHOo5lnlzEuOvGzVO3tfBkIrbfm3muqZp5f3IFx4X2ekGTBR5Q==
+  dependencies:
+    tslib "^1.9.0"
+
 "@ngtools/json-schema@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@ngtools/json-schema/-/json-schema-1.1.0.tgz#c3a0c544d62392acc2813a42c8a0dc6f58f86922"

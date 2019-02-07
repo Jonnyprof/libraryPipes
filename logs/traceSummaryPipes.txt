@@ -1,0 +1,83 @@
+Trace: GETTING _loadSummary
+StaticSymbol {
+  filePath:
+   '/media/john/Mes/Webs/proves/libraryPipes/node_modules/@example-lib/uppercase-pipe/example-lib-uppercase-pipe.d.ts',
+  name: 'UppercasePipe',
+  members: [] } null
+    at CompileMetadataResolver._loadSummary (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18351:19)
+    at CompileMetadataResolver.isPipe (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18597:27)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18747:36
+    at Array.forEach (<anonymous>)
+    at CompileMetadataResolver.getNgModuleMetadata (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18736:58)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:24334:57
+    at Array.forEach (<anonymous>)
+    at analyzeFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:24317:57)
+    at AotCompiler._analyzeFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:23706:21)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:23801:74
+    at Array.map (<anonymous>)
+    at AotCompiler.loadFilesAsync (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:23801:35)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler-cli/src/transformers/program.js:190:39
+Trace: SETTING _loadSummary
+StaticSymbol {
+  filePath:
+   '/media/john/Mes/Webs/proves/libraryPipes/node_modules/@example-lib/uppercase-pipe/example-lib-uppercase-pipe.d.ts',
+  name: 'UppercasePipe',
+  members: [] } null
+    at CompileMetadataResolver._loadSummary (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18355:23)
+    at CompileMetadataResolver.isPipe (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18597:27)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18747:36
+    at Array.forEach (<anonymous>)
+    at CompileMetadataResolver.getNgModuleMetadata (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18736:58)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:24334:57
+    at Array.forEach (<anonymous>)
+    at analyzeFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:24317:57)
+    at AotCompiler._analyzeFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:23706:21)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:23801:74
+    at Array.map (<anonymous>)
+    at AotCompiler.loadFilesAsync (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:23801:35)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler-cli/src/transformers/program.js:190:39
+
+Trace: GETTING _loadSummary
+ StaticSymbol {
+  filePath:
+   '/media/john/Mes/Webs/proves/libraryPipes/dist/libs/uppercase-pipe/example-lib-uppercase-pipe.d.ts',
+  name: 'UppercasePipeModule',
+  members: [] } undefined
+    at CompileMetadataResolver._loadSummary (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18351:19)
+    at CompileMetadataResolver.getNgModuleSummary (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18606:38)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18695:59
+    at Array.forEach (<anonymous>)
+    at CompileMetadataResolver.getNgModuleMetadata (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18673:53)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:24334:57
+    at Array.forEach (<anonymous>)
+    at analyzeFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:24317:57)
+    at AotCompiler._analyzeFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:23706:21)
+    at AotCompiler.findGeneratedFileNames (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:23722:29)
+    at Object.findGeneratedFileNames (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler-cli/src/transformers/program.js:595:86)
+    at TsCompilerAotCompilerTypeCheckHostAdapter.getSourceFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler-cli/src/transformers/compiler_host.js:389:59)
+    at findSourceFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/typescript/lib/typescript.js:87549:29)
+    at processImportedModules (/media/john/Mes/Webs/proves/libraryPipes/node_modules/typescript/lib/typescript.js:87829:25)
+    at findSourceFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/typescript/lib/typescript.js:87600:17)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/typescript/lib/typescript.js:87457:85
+Trace: SETTING _loadSummary
+ StaticSymbol {
+  filePath:
+   '/media/john/Mes/Webs/proves/libraryPipes/dist/libs/uppercase-pipe/example-lib-uppercase-pipe.d.ts',
+  name: 'UppercasePipeModule',
+  members: [] } null
+    at CompileMetadataResolver._loadSummary (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18355:23)
+    at CompileMetadataResolver.getNgModuleSummary (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18606:38)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18695:59
+    at Array.forEach (<anonymous>)
+    at CompileMetadataResolver.getNgModuleMetadata (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:18673:53)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:24334:57
+    at Array.forEach (<anonymous>)
+    at analyzeFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:24317:57)
+    at AotCompiler._analyzeFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:23706:21)
+    at AotCompiler.findGeneratedFileNames (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler/bundles/compiler.umd.js:23722:29)
+    at Object.findGeneratedFileNames (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler-cli/src/transformers/program.js:595:86)
+    at TsCompilerAotCompilerTypeCheckHostAdapter.getSourceFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/@angular/compiler-cli/src/transformers/compiler_host.js:389:59)
+    at findSourceFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/typescript/lib/typescript.js:87549:29)
+    at processImportedModules (/media/john/Mes/Webs/proves/libraryPipes/node_modules/typescript/lib/typescript.js:87829:25)
+    at findSourceFile (/media/john/Mes/Webs/proves/libraryPipes/node_modules/typescript/lib/typescript.js:87600:17)
+    at /media/john/Mes/Webs/proves/libraryPipes/node_modules/typescript/lib/typescript.js:87457:85

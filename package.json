@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:libs": "yarn build icons && yarn build uppercasePipe && yarn build complexComponents",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
